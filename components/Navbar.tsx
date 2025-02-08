@@ -14,42 +14,32 @@ export function Navbar() {
     <>
       <Link
         href="/"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         Home
       </Link>
       <Link
         href="/about"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
-        About Me
+        About 
       </Link>
       <Link
         href="/projects"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         Projects
       </Link>
       <Link
         href="/resume"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         Resume
       </Link>
-      <Link
-        href="/algo-map"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
-      >
-        Algo Map
-      </Link>
-      <Link
-        href="https://v0-snake-game-4hymev.vercel.app/"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
-      >
-        Games
-      </Link>
+    
+      
       <DropdownMenu>
-        <DropdownMenuTrigger className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200">
+        <DropdownMenuTrigger className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200">
           Contact
         </DropdownMenuTrigger>
         <DropdownMenuContent>
