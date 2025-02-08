@@ -14,32 +14,32 @@ export function Navbar() {
     <>
       <Link
         href="/"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         Home
       </Link>
       <Link
         href="/about"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         About 
       </Link>
       <Link
         href="/projects"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         Projects
       </Link>
       <Link
         href="/resume"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         Resume
       </Link>
     
       
       <DropdownMenu>
-        <DropdownMenuTrigger className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200">
+        <DropdownMenuTrigger className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200">
           Contact
         </DropdownMenuTrigger>
         <DropdownMenuContent>
@@ -95,8 +95,8 @@ export function Navbar() {
 
         <div className="flex-1 flex justify-center lg:justify-start">
           <div className="flex flex-row items-center gap-2">
-            <span className="text-2xl font-bold text-center m-0">JAYANTH</span>
-            <span className="text-xl font-light tracking-[0.15em] text-center m-0">STUDIOS</span>
+            <span className="text-2xl font-bold  tracking-[0.05em] text-center m-0">JAYANTH</span>
+            <span className="text-[23px] font-extralight  tracking-[0.10em] text-center m-0">STUDIOS</span>
           </div>
         </div>
 
