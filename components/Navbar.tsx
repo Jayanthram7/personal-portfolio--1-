@@ -76,8 +76,8 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      {/* Gradient Background */}
-      <div className="absolute inset-0 -z-10 h-full w-full bg-gradient-to-r from-orange-400 overflow-hidden via-purple-500 to-pink-500 opacity-20 blur-3xl" />
+      {/* Gradient Background (Visible only on large screens) */}
+      <div className="absolute inset-0 -z-10 h-full w-full hidden lg:block bg-gradient-to-r from-orange-400 via-purple-500 to-pink-500 opacity-20 blur-3xl" />
 
       <div className="container flex h-16 items-center justify-between relative">
         <Sheet>
@@ -111,4 +111,3 @@ export function Navbar() {
     </header>
   )
 }
-
