@@ -14,42 +14,32 @@ export function Navbar() {
     <>
       <Link
         href="/"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         Home
       </Link>
       <Link
         href="/about"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
-        About Me
+        About 
       </Link>
       <Link
         href="/projects"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         Projects
       </Link>
       <Link
         href="/resume"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
+        className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200"
       >
         Resume
       </Link>
-      <Link
-        href="/algo-map"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
-      >
-        Algo Map
-      </Link>
-      <Link
-        href="https://v0-snake-game-4hymev.vercel.app/"
-        className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200"
-      >
-        Games
-      </Link>
+    
+      
       <DropdownMenu>
-        <DropdownMenuTrigger className="block py-2 px-3 hover:bg-gray-200 dark:hover:bg-gray-700  transition-all hover:rounded-xl duration-200">
+        <DropdownMenuTrigger className="block py-2 px-3 hover:bg-gray-200 text-[17px] font-medium dark:hover:bg-gray-700 font-mono transition-all hover:rounded-xl duration-200">
           Contact
         </DropdownMenuTrigger>
         <DropdownMenuContent>
@@ -86,8 +76,8 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      {/* Gradient Background */}
-      <div className="absolute inset-0 -z-10 h-full w-full bg-gradient-to-r from-orange-400 overflow-hidden via-purple-500 to-pink-500 opacity-20 blur-3xl" />
+      {/* Gradient Background (Visible only on large screens) */}
+      <div className="absolute inset-0 -z-10 h-full w-full hidden lg:block bg-gradient-to-r from-orange-400 via-purple-500 to-pink-500 opacity-20 blur-3xl" />
 
       <div className="container flex h-16 items-center justify-between relative">
         <Sheet>
@@ -105,8 +95,8 @@ export function Navbar() {
 
         <div className="flex-1 flex justify-center lg:justify-start">
           <div className="flex flex-row items-center gap-2">
-            <span className="text-2xl font-bold text-center m-0">JAYANTH</span>
-            <span className="text-xl font-light tracking-[0.15em] text-center m-0">STUDIOS</span>
+            <span className="text-2xl font-bold  tracking-[0.05em] text-center m-0">JAYANTH</span>
+            <span className="text-[23px] font-extralight  tracking-[0.10em] text-center m-0">STUDIOS</span>
           </div>
         </div>
 
@@ -121,4 +111,3 @@ export function Navbar() {
     </header>
   )
 }
-

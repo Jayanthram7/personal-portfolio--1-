@@ -4,6 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { Navbar } from "@/components/Navbar"
 import { Button } from "@/components/ui/button"
+import TallAi from "@/app/projects/TallAi.png"
 
 interface Project {
   id: number
@@ -21,7 +22,7 @@ const projects: Project[] = [
     fullDescription:
       "TallAi automates invoice processing and call center management. Using OCR and pdfplumber, it extracts data from invoices and converts it into a predefined Excel format. The call center automates data entry, assigns calls to employees, and tracks call statuses. This streamlines workflows, reduces manual errors, and improves operational efficiency.",
     techStack: ["MongoDB", "Express", "React", "Node.js", "OCR", "pdfplumber"],
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/TallAi.png",
     link: "https://example.com/tallai",
   },
   {
@@ -30,7 +31,7 @@ const projects: Project[] = [
     fullDescription:
       "Test your IPL knowledge with our exciting IPL Quiz! Challenge yourself with questions about teams, players, records, and historic moments from the Indian Premier League. Whether you're a casual fan or a cricket expert, this quiz will keep you engaged and entertained. Play now and see how well you know the IPL!",
     techStack: ["MongoDB", "Express", "React", "Node.js"],
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/Ipl.png",
     link: "https://iplquiz-jayanthstudios.netlify.app/",
   },
   {
