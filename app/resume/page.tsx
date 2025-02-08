@@ -8,15 +8,15 @@ export default function Resume() {
       <Navbar />
 
       <main className="flex-1 container mx-auto px-4 py-8">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
+        <h1 className="text-4xl sm:text-5xl font-bold mb-8 text-center text-black dark:text-white">
           Resume
         </h1>
 
         <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden p-6 mb-8">
-          <h2 className="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">JAYANTHRAM K</h2>
+          <h2 className="text-3xl font-bold mb-4 text-indigo-600 dark:text-white">JAYANTHRAM K</h2>
 
           <section className="mb-6">
-            <h3 className="text-2xl font-semibold mb-2 text-pink-600 dark:text-pink-400">SUMMARY</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-black dark:text-white">SUMMARY</h3>
             <p className="text-gray-700 dark:text-gray-300">
               Aspiring Artificial Intelligence and Machine Learning enthusiast also skilled in Full Stack Web
               Development (MERN). I'm keen on gaining expertise and committed to lifelong learning and development in
@@ -26,7 +26,7 @@ export default function Resume() {
           </section>
 
           <section className="mb-6">
-            <h3 className="text-2xl font-semibold mb-2 text-pink-600 dark:text-pink-400">CONTACT</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-black dark:text-white">CONTACT</h3>
             <p className="text-gray-700 dark:text-gray-300">
               Email: jayanthramnithin@gmail.com
               <br />
@@ -47,7 +47,7 @@ export default function Resume() {
           </section>
 
           <section className="mb-6">
-            <h3 className="text-2xl font-semibold mb-2 text-pink-600 dark:text-pink-400">EDUCATION</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-black dark:text-white">EDUCATION</h3>
             <p className="text-gray-700 dark:text-gray-300">
               <strong>PSG College of Technology</strong>
               <br />
@@ -60,7 +60,7 @@ export default function Resume() {
           </section>
 
           <section className="mb-6">
-            <h3 className="text-2xl font-semibold mb-2 text-pink-600 dark:text-pink-400">SKILLS</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-black dark:text-white">SKILLS</h3>
             <div className="flex flex-wrap gap-2">
               {[
                 "Deep Learning",
@@ -95,7 +95,7 @@ export default function Resume() {
               ].map((skill, index) => (
                 <span
                   key={index}
-                  className="bg-purple-100 text-purple-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300"
+                  className="bg-indigo-100 text-indigo-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-600 dark:text-white"
                 >
                   {skill}
                 </span>
@@ -104,7 +104,7 @@ export default function Resume() {
           </section>
 
           <section className="mb-6">
-            <h3 className="text-2xl font-semibold mb-2 text-pink-600 dark:text-pink-400">PROJECTS</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-black dark:text-white">PROJECTS</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               I have worked on various projects including TallAi, Handwriting Recognition, and TripTactix.
             </p>
@@ -114,7 +114,7 @@ export default function Resume() {
           </section>
 
           <section className="mb-6">
-            <h3 className="text-2xl font-semibold mb-2 text-pink-600 dark:text-pink-400">CERTIFICATIONS</h3>
+            <h3 className="text-2xl font-semibold mb-2 text-black dark:text-white">CERTIFICATIONS</h3>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
               <li>Generative AI (IIT Madras - Mechanica'24)</li>
               <li>Deep Learning with Python (IIT Madras - Mechanica'24)</li>
