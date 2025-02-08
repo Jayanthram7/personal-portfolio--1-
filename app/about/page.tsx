@@ -91,11 +91,10 @@ export default function AboutMe() {
             className="text-center"
           >
             <h2 className="text-xl sm:text-2xl mb-4">Well, here&apos;s a few things about me:</h2>
-            <p className="max-w-2xl mx-auto text-base sm:text-lg mb-8">
-              I&apos;m a passionate developer and designer with a keen eye for creating amazing digital experiences. My
-              journey in tech has been driven by curiosity and a desire to build innovative solutions. When I&apos;m not
-              coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a
-              good cup of coffee while brainstorming my next big idea.
+            <p className="max-w-2xl mx-auto text-base font-thin sm:text-lg mb-8">
+            Hi, I'm Jayanth! I'm a student passionate about Machine Learning, Artificial Intelligence, and full-stack development using the MERN stack. I'm also a developer and designer with a keen eye for creating amazing digital experiences. My journey in tech has been driven by curiosity and a desire to build innovative solutions that are both intelligent and user-friendly.
+
+From crafting efficient AI models to designing seamless web experiences, I thrive on solving complex problems and bringing ideas to life through code. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while brainstorming my next big idea.
             </p>
 
             <h2 className="text-2xl sm:text-3xl font-bold mb-6">Skills</h2>
